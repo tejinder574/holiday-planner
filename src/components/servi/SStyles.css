@@ -1,0 +1,39 @@
+#services{
+
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:0.4rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: auto;
+    height:auto;
+    padding: 2rem;
+    background-color: aliceblue;
+    color:#03045e;
+    box-shadow: rgba(201, 201, 238, 0.823) 0px 7px 29px 0px;
+    transition:0.3sec ease-in-out;
+}
+
+.service:hover{
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(36, 3, 142, 0.35) 0px 5px 15px;
+}
+
+.icon img {
+    height:2.2rem;
+}
+
+.service img{
+    width:65%;
+    height:100%;
+    object-fit:cover;
+}
+
+@media screen and (min-width:280px) and (max-width:720px){
+    
+}
+
